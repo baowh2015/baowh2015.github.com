@@ -33,3 +33,9 @@
 	font-weight: bold;
 	color:black;
 }
+#text a{
+	text-decoration: none;
+	color:#FF8888;
+	font-size: 20px;
+    
+}
