@@ -5,14 +5,14 @@
  * @date    2017-04-07 08:28:43
  * @version $Id$
  */
-.ui-main{
+.ui-main1{
 	width:800px;
     height:600px;
     background: #CDD3F5;
     border:1px solid black;
     
 }
-.block1{
+.ui-main1-title{
 	width:760px;
 	height: 120px;
 	margin: 20px;
@@ -20,14 +20,14 @@
 	border:1px solid black;
 	display:flex;
 }
-.block1-box{
+.ui-main1-title-box{
 	width:80px;
 	height: 80px;
 	border:1px solid black;
 	background: #CDD3F5;
 	margin:20px;
 }
-.block1-box-special{
+.ui-main1-title-box-special{
 	width:80px;
 	height: 80px;
 	border:1px solid black;
@@ -37,7 +37,7 @@
 	margin-left: 180px;
 	margin-right: 20px;
 }
-.block2{
+.ui-main1-body{
 	width:760px;
 	height: 420px;
 	background: #99BD90;
@@ -45,7 +45,7 @@
 	margin:20px;
 	display: flex;
 }
-.block2-left{
+.ui-main1-body-left{
 	width:200px;
 	height:370px;
 	margin:20px;
@@ -53,21 +53,21 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.block2-box{
+.ui-main1-body-left-box{
 	width:200px;
 	height: 300px;
 	border:1px solid black;
 	background: #CDD3F5;
 	
 }
-.block2-item{
+.ui-main1-body-left-item{
 	width:50px;
 	height: 50px;
 	margin-top: 18px;
     border:1px solid black;
     background: #CDD3F5;
 }
-.block2-right{
+.ui-main1-body-right{
 	width:480px;
 	height: 370px;
 	margin-left: 20px;
@@ -77,7 +77,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-.block2-head{
+.ui-main1-body-right-box{
 	width:480px;
 	height:40px;
 	border:1px solid black;
