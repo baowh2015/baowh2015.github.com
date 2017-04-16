@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-14 08:13:52
+ * @version $Id$
+ */
+.ui-main1{
+    position: absolute;
+	width:610px;
+	height: 400px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	z-index: 3;
+}
+
+.ui-main1-square{
+	margin: 10px;
+	width:100px;
+	height: 100px;
+	background: #666666;
+	border: 1px solid black;
+    color:white;
+}
+
+.ui-main1-image{
+	width:100px;
+	height: 100px;
+}
+
+.ui-up{
+	position: relative;
+	z-index: 5;
+	width:700px;
+	height: 500px;
+}
+
+.ui-up-main1{
+	position: absolute;
+	width:300px;
+	height: 300px;
+    border:1px solid black;
+	background: white;
+	left: 150px;
+	top: 50px; 
+}
+
+.ui-up-square{
+	margin:20px;
+	width: 260px;
+	height: 260px;
+	border: 1px solid black;
+	background: #666666;
+	background-position: center;
+}
+
+.ui-main2{
+	width:600px;
+	height: 600px;
+	position: absolute;
+	z-index: 3;
+	top:450px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.ui-main2-top{
+	width:100px;
+	height: 50px;
+	border:1px solid black;
+	margin-right:-1px; 
+	margin-bottom:-1px;
+	background: white;
+}
+
+.ui-main2-bottom{
+	position: relative;
+	width:600px;
+	height:500px;
+	border: 1px solid black;
+}
+
+.ui-main2-bottom-box{
+	position: absolute;
+	width:600px;
+	height:500px;
+	line-height: 500px;
+    text-align: center;
+    font-family:"Tahoma"; 
+    font-size: 100px;
+    color: #808080;
+}
+
+.ui-main3{
+	width:600px;
+	height: 400px;
+	border: 1px solid black;
+	padding: 10px;
+	margin:10px;
+	position: absolute;
+	z-index: 3;
+	top:1100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.ui-main3-delete-contain{
+	flex:1;
+	overflow: auto;
+}
+
+.ui-main3-delete{
+	display: flex;
+	justify-content: space-between;
+	width: 550px;
+	height: 50px;
+	border:1px solid black;
+	margin:5px;
+}
+
+.ui-main3-delete-num{
+    width:50px;
+    height: 50px;
+    border-right:1px solid black;
+    line-height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ui-main3-delete-button{
+    width: 100px;
+    height: 50px;
+    border-left: 1px solid black;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.ui-main3-add{
+	width:180px;
+	height: 50px;
+	background: #339966;
+	border:1px solid black;
+	margin-right: 25px;
+	line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    align-self: flex-end;
+}
