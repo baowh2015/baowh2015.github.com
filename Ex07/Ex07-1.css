@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-28 08:15:01
+ * @version $Id$
+ */
+.question{
+	margin-left: 90px;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.main1{
+	height: 1000px;
+	margin-left: 100px;
+}
+.ui-title{
+	height: 50px;
+	background: #00C2AE;
+	display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    border-bottom: 1px solid #008A7D;
+}
+.ui-title-select{
+	height: 30px;
+	width:50px;
+	padding: 0;
+	color: white;
+	line-height: 30px;
+	font-size: 13px;
+	border-color: #00C2AE;
+	border: 0;
+	background: #00C2AE;
+}
+.ui-title-search{
+	height: 30px;
+	border-radius: 5px;
+	background:#00A695;
+	margin-right: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+}
+.ui-title-search .fa-search{
+	color:white;
+}
+.ui-title-search span{
+	font-size: 16px;
+	color:#00DACD;
+	margin-left: 5px;
+}
+.ui-title-user{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	color:white;
+}
+.ui-title-user-msg{
+	margin-top: 2px;
+	font-size: 12px;
+}
+.item-circle {
+    padding-bottom: 20px;
+}
+.keep-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.ui-main1-circle {
+    margin: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.circle-1 {
+    background: #ff8905;
+}
+
+.circle-2 {
+    background: #ff6640;
+}
+
+.circle-3 {
+    background: #7089f6;
+}
+
+.circle-4 {
+    background: #ff8905;
+}
+
+.circle-5 {
+    background: #00cdf0;
+}
+
+.circle-6 {
+    background: #ffbb53;
+}
+
+.circle-7 {
+    background: #00cdf0;
+}
+
+.circle-8 {
+    background: #ff8905;
+}
+
+.ui-line{
+	height: 10px;
+    border-top: 1px solid #E0D9CF;
+    border-bottom: 1px solid #E0D9CF;
+    background:#F1F0ED;
+}
+.ui-square-left{
+	height: 140px;
+
+}
+.ui-square-left-msg{
+	height: 40px;
+	margin:10px;
+}
+.ui-square-msg-bold{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.ui-square-msg-nor{
+	font-size: 12px;
+	color:#6A6A6A;
+}
+.ui-square-left-msg .ui-square-msg-bold{
+	color: #00A500;
+}
+.ui-square-left-rect{
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background: #666666;
+}
+.ui-square-right-up-msg{
+	width:100px;
+	height: 40px;
+	margin:3px;
+}
+.ui-square-right-up-msg .ui-square-msg-bold{
+	color: #FF3D00;
+}
+.ui-square-right-up-rect{
+	width:60px;
+	height: 60px;
+	margin-left: 40px;
+	background: #666666;
+}
+.ui-square-right-up{
+	height: 70px;
+	margin-top: 7px;
+	border-bottom: 1px solid #E0D9CF;
+	border-left: 1px solid #E0D9CF;
+	display: flex;
+}
+.ui-square-right-down-msg{
+    height: 20px;
+	margin:3px;
+}
+.ui-square-right-down-msg .ui-square-msg-bold{
+	color: #FF40A4;
+}
+.ui-square-right-down-rect{
+	width:40px;
+	height: 40px;
+	margin-left: 30px;
+	background: #666666;
+}
+.ui-square-right-down{
+	height: 70px;
+	margin-bottom: 7px;
+	border-left: 1px solid #E0D9CF;
+}
+.ui-square-right-abdown-msg{
+    height: 30px;
+	margin:3px;
+}
+.ui-square-msg-abbold{
+	font-size: 15px;
+	font-weight: bold;
+	color: #FF8700;
+}
+.ui-time{
+	margin-top: 10px;
+	display: flex;
+}
+.ui-time-li{
+	width:18px;
+	height: 16px;
+	border-radius: 3px;
+	background: #666666;
+	color:white;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.ui-middle1{
+	height: 70px;
+	border-right: 1px solid #E0D9CF;
+}
+.ui-middle2{
+	height: 70px;
+}
+.ui-middle-msg{
+	height: 70px;
+	margin:10px;
+}
+.ui-middle-msg-bold{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.ui-middle1 .ui-middle-msg-bold{
+	color: #FF6640;
+}
+.ui-middle2 .ui-middle-msg-bold{
+	color: #FF9C00;
+}
+.ui-middle-msg-nor{
+	font-size: 12px;
+	color:#9C9C9C;
+}
+.ui-middle-rect{
+	width: 60px;
+	height: 60px;
+	margin-top: 5px;
+	background: #666666;
+}
+.ui-text{
+	height: 40px;
+	margin-left: 10px;
+	padding: 0;
+	font-size: 17px;
+	display: flex;
+	align-items: center;
+}
+.ui-padding{
+	padding-left: 10px;
+	padding-right: 0;
+}
+.ui-box{
+	margin-left: 10px;
+	padding:0;
+	border-top: 1px solid #E0D9CF;
+}
+.ui-show-left{
+	width:80px;
+	height: 80px;
+	margin:10px;
+	padding: 0;
+	background: #666666;
+	position: relative;
+	overflow: hidden;
+}
+.ui-show-left-logo{
+	position: absolute;
+    top: 8px;
+    left: -30px;
+    right: auto;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+    background: #00C2AE;
+    transform: rotate(-45deg);
+}
+.ui-show-right{
+	padding:10px;
+	height: 100px;
+}
+.ui-show-right-bigmsg{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.ui-show-right-smallmsg{
+	font-size: 10px;
+	color:#6A6A6A;
+	margin-bottom: 10px;
+}
+.ui-show-right-price-pre{
+	font-size: 20px;
+	font-weight: bold;
+	color: #00C2AE;
+}
+.ui-show-right-price-pre:after{
+	content: '元';
+	font-weight: normal;
+	font-size: 12px;
+	color: #00C2AE;
+}
+.ui-show-right-price-small{
+	height: 28px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.ui-show-right-price-label{
+	width:50px;
+	height: 18px;
+	font-size: 12px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	border:1px solid #FF9A00;
+	color: #FF9A00;
+}
+.ui-show-right-price-num{
+    font-size: 10px;
+    color: #666666;
+}
+.ui-show-right-price-num:before{
+	content: '已售';
+	font-size:10px;
+	color: #666666;
+}
+.ui-show-right-price-mart{
+	font-size: 12px;
+	color: #666666;
+}
+.ui-show-right-price-mart:before{
+	content: '门市价：';
+	font-size: 12px;
+}
+.ui-show-right-price-mart:after{
+	content: '元';
+	font-size: 12px;
+}
+.ui-end{
+	height: 40px;
+	background: #8FC6EA;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ui-end-text{
+	font-size:16px;
+	font-weight: bold;
+	color:#00B1CE;
+}
+.right-arrow{
+	color:#00B1CE;
+}
