@@ -17,14 +17,21 @@
 	font-size:3em;
 	color:white;
 }
+.content{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+
+}
 #block1{
 	width:150px;
 	height: 50px;
 	background: #FFE4C4;
-	margin-left: 600px;
+	margin:20px;
+	/*margin-left: 600px;
 	margin-right: 5px;
 	margin-top: 25px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;*/
 	float:left;
 	}
 #text{
